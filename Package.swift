@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "FirebaseSwift", targets: ["FirebaseSwift"]),
         ],
     dependencies: [
-        .package(url: "https://github.com/tylermilner/Just.git", .upToNextMajor(from: "0.6.1"))
+        .package(url: "https://github.com/tylermilner/Just.git", from: "0.6.1")
     ],
     targets: [
         .target(name: "FirebaseSwift", dependencies: ["Just"]),
