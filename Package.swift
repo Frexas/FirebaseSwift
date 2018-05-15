@@ -11,7 +11,7 @@ let package = Package(
         .package(url: "https://github.com/tylermilner/Just.git", from: "0.6.1")
     ],
     targets: [
-        .target(name: "FirebaseSwift", dependencies: ["Just"], path: "Source/FirebaseSwift"),
+        .target(name: "FirebaseSwift", dependencies: ["Just"]),
         .testTarget(name: "FirebaseSwiftTests", dependencies: ["FirebaseSwift"])
     ]
 )
